@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap.css" type="text/css">
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="alert.js"></script>
+</head>
+<body>
+
+<script>
+
+    var p1 = {};
+    var h = "";
+    h += "<form id='attn_delgroupform'>" + '<div class="radio">' + '<label>' + ' <input type="radio" name="delgroup" value="1" checked="checked">' + '仅删除组，组内成员移至我的好友。'
+        + '</label>' + '</div>' + '<div class="radio">' + '<label>' + ' <input type="radio" name="delgroup" value="2">' + '删除组并删除组内成员。' + '</label>' + '</div>'
+        + '<div >你确定要删除该分组么？</div>' + "</form>";
+    p1.html = h;
+    p1.title = "删除确认";
+    p1.width = '300px';
+    // p1.style="min-height:50px;";
+    p1.btns = [ {
+        text : "确定",
+        click : function(e, $modal) {
+
+            //ajax请求
+        }
+    }, {
+        text : '取消',
+        type : 'hide',
+        cls : 'btn-default'
+    } ];
+    $.commonAlert(p1);
+</script>
+</body>
+</html>

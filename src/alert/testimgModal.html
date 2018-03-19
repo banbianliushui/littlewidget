@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="imgModal.css" type="text/css">
+    <link rel="stylesheet" href="font.css" type="text/css">
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="alert.js"></script>
+</head>
+<body>
+<script>
+    var imglist =[];
+    var imgid =0;
+    imglist.push({src:'//img.hb.aicdn.com/607cd551c879849c0b460b9163581892d35071d02f5fe-IxBx6w_/fw/480',guId:imgid});
+    imgid =1;
+    imglist.push({src:'//img.hb.aicdn.com/7881abf9304dbd540a56f545eb7ad589786d1dad17a04-VFlgD8_/fw/480',guId:imgid});
+    imgid =2;
+    imglist.push({src:'//img.hb.aicdn.com/c3996a85a313e1447a220ccf0f94828277fb9a1a8de8f-cl7T3L_/fw/480',guId:imgid});
+    imgid =3;
+    imglist.push({src:'//img.hb.aicdn.com/e8d82a77d17a78cff8726a5c2578a457496dcb022d18a-glLXbJ_/fw/480',guId:imgid});
+
+    showid =1;
+    var params={imglist:imglist,showpicid:showid,ifbtn:true};
+    $.imgModal(params);
+</script>
+
+</body>
+</html>

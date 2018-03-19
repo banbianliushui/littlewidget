@@ -1,0 +1,252 @@
+@font-face {
+  font-family: 'iconfont';
+  src:url('fonts/iconfont.eot'); /* IE9*/
+  src: url('fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('fonts/iconfont.woff') format('woff'), /* chrome、firefox */
+  url('fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+                                                                                                                                                                                
+                                                   
+.icon {
+	position: relative;
+	top: 1px;
+  	font-family:"iconfont" !important;
+  	font-size:16px;
+  	font-style:normal;
+  	-webkit-font-smoothing: antialiased;
+  	-webkit-text-stroke-width: 0.2px;
+  	-moz-osx-font-smoothing: grayscale; 
+}
+/**鏂囦欢鍥炬爣***/
+/*鏈瘑鍒殑*/
+.fileicon:before
+{
+	content:"";
+    position: absolute;
+    left: 0;
+    text-indent: 0px;
+    top: -11px;
+}
+li.asc .icon-order:before
+{
+	content: "\e654";
+}
+li.desc .icon-order:before
+{
+	content: "\e653";
+}
+.icon-asc:before
+{
+	content: "\e654";
+}
+.icon-des:before
+{
+	content: "\e653";
+}
+.icon-house-small:before
+{
+	content: "\e617";
+}
+.icon-txt-small:before
+{
+	content: "\e60e";
+}
+.icon-xls-small:before,.icon-xlsx-small:before
+{
+	content: "\e60e";
+}
+.icon-doc-small:before,.icon-docx-small:before
+{
+	content: "\e60e";
+}
+.icon-pdf-small:before
+{
+	content: "\e60e";
+}
+.icon-mange:before {
+	content: "\e605";
+}
+.icon-inbm:before {
+	content: "\e627";
+}
+.icon-favorite:before {
+	content: "\e64f";
+}
+.icon-allfile:before {
+	content: "\e64e";
+}
+.icon-publiclibrary:before {
+	content: "\e64c";
+}
+.icon-unitlibrary:before {
+	content: "\e648";
+}
+.icon-branchlibrary:before {
+	content: "\e647";
+}
+.icon-personallibrary:before {
+	content: "\e64a";
+}
+.icon-recyclebin:before {
+	content: "\e64d";
+}
+.icon-personinfo:before {
+	content: "\e64b";
+}
+.icon-liknam:before {
+	content: "\e61e";
+}
+.icon-notice:before {
+	content: "\e650";
+}
+.icon-remove:before , .icon-rBremove:before
+{
+	content: "\e60c";
+}
+.icon-restore:before
+{
+	content: "\e61f";
+}
+.icon-download:before
+{
+	content: "\e613";
+}
+.icon-send:before
+{
+	content: "\e602";
+}
+.icon-cancelCollectio:before
+{
+	content: "\e611";
+}
+
+.icon-back:before
+{
+	content: "\e603";
+}
+.icon-tags:before
+{
+	content: "\e60a";
+}
+.icon-upload:before
+{
+	content: "\e60d";
+}
+.icon-createfolder:before
+{
+	content: "\e615";
+}
+.icon-authorize:before
+{
+	content: "\e611";
+}
+.icon-fvempty:before
+{
+	content: "\e61a";
+}
+.icon-rbempty:before
+{
+	content: "\e61a";
+}
+.icon-rbmange:before
+{
+	content: "\e611";
+}
+
+.icon-danwei:before { content: "\e600"; }
+.icon-diqiuyi:before { content: "\e601"; }
+.icon-fasong:before { content: "\e602"; }
+.icon-fanhui:before { content: "\e603"; }
+.icon-fenxiang:before { content: "\e604"; }
+.icon-geren:before { content: "\e605"; }
+.icon-excel:before { content: "\e606"; }
+.icon-pdf:before { content: "\e607"; }
+.icon-ppt:before { content: "\e608"; }
+.icon-word:before { content: "\e609"; }
+.icon-biaoqian:before { content: "\e60a"; }
+.icon-bumen:before { content: "\e60b"; }
+.icon-shanchu:before { content: "\e60c"; }
+.icon-shangchuan:before { content: "\e60d"; }
+.icon-shoucang:before { content: "\e60e"; }
+.icon-shouqi:before { content: "\e60f"; }
+.icon-sousuo:before { content: "\e610"; }
+.icon-tongzhi:before { content: "\e611"; }
+.icon-xiasanjiao:before { content: "\e612"; }
+.icon-shangsanjiao:before { content: "\e633"; }
+.icon-xiazai:before { content: "\e613"; }
+.icon-xiangyou:before { content: "\e614"; }
+.icon-xinjianwenjianjia:before { content: "\e615"; }
+.icon-zuofei:before { content: "\e616"; }
+.icon-gerenku:before { content: "\e617"; }
+.icon-gerenziliao:before { content: "\e618"; }
+.icon-gonggong:before { content: "\e619"; }
+.icon-huishouzhan:before { content: "\e61a"; }
+.icon-jiarugerenku:before { content: "\e61b"; }
+.icon-quanbuwenjian:before { content: "\e61c"; }
+.icon-quanping:before { content: "\e61d"; }
+.icon-intoku:before { content: "\e61b"; }     
+.icon-kongk:before { content: "\e62f"; } 
+.icon-yshouc:before { content: "\e620"; } 
+/*锟斤拷锟斤拷系统锟斤拷锟芥、锟斤拷锟�锟斤拷锟斤拷锟斤拷锟斤拷*/
+/*锟斤拷锟斤拷时 1*/
+.icon-msg-errorrecov:before { content: "\e621";    color: #3C7AC3;  font-size: 24px; }
+/*锟斤拷锟斤拷*/
+.icon-msg-share:before { content: "\e625"; }
+/*锟斤拷锟斤拷锟斤拷锟斤拷锟较�锟斤拷证 3*/
+.icon-msg-friendadd:before { content: "\e622"; color: #3C7AC3;  font-size: 24px; }
+/*锟斤拷锟斤拷 4*/
+.icon-msg-notice:before { content: "\e626";  color: #3C7AC3;  font-size: 24px;}
+/*删锟斤拷时*/
+.icon-msg-del:before { content: "\e624"; }
+/*锟斤拷锟斤拷 2*/
+.icon-msg-cancel:before { content: "\e616"; color: #3C7AC3;  font-size: 24px; }
+/*锟斤拷锟斤拷锟斤拷锟斤拷*/
+.icon-errorrecovery:before { content: "\e621"; }
+/*锟窖讹拷*/
+.icon-msg-alread:before { content: "\e628"; }
+.icon-msg-alread.active:before { content: "\e623"; }
+/*通知 5*/
+.icon-msg-inform:before { content: "\e611";  color: #3C7AC3; font-size: 24px; }
+/*前一页*/
+.icon-goprev:before { content: "\e62a"; }
+.icon-goprev.active:before {  color: #3C7AC3;  }
+/*锟斤拷一页*/
+.icon-gonext:before { content: "\e629";  }
+.icon-gonext.active:before {   color: #3C7AC3;  }
+.icon-download.active:before {   color: #3C7AC3;  }
+.icon-list-move:before {   content: "\e62c";   }
+.icon-list-delete:before {   content: "\e62d";   }
+.icon-list-up:before {   content: "\e634";   }
+.icon-list-down:before {   content: "\e62e";   }
+.icon-list-edit:before {   content: "\e635";   }
+.icon-list-del:before {   content: "\e61a";   }
+.icon-edit:before {   content: "\e635";   }
+.icon-lock:before {   content: "\e639";   }
+.icon-unlock:before {   content: "\e637";   }
+.icon-cancel:before {   content: "\e638";   }
+.icon-save:before {   content: "\e636";   }
+.icon-right-triangle:before {   
+	content: "\e63a";      
+	/* font-size: 10px;
+    -webkit-transform: scale(0.9);   
+    display: inline-block;  */ }
+.t-expand>.icon-right-triangle:before {   
+	content: "\e652";
+	font-size: 10px;
+    -webkit-transform: scale(0.7);
+    display: inline-block;    }
+
+.icon-downloadarrow:before { content: "\e63c"; }
+.icon-checkbox:before { content: "\e631"; }
+
+.icon-accord:before { content: "\e614";    font-size: 10px;
+    display: inline-block;
+    -webkit-transform: scale(0.8); }
+li.active>p>.icon-accord:before { content: "\e63c"; }
+
+.glyphicon-remove:before{font-size:12px;}
+.glyphicon-remove.gly-big:before{font-size:18px;}
+.icon-usermsg:before{
+	content: "\e6b1"; 
+}

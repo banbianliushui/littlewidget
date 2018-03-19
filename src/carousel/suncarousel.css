@@ -77,7 +77,7 @@ ol {
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
   }
-}
+
 .carousel-inner > .active,
 .carousel-inner > .next,
 .carousel-inner > .prev {

@@ -2,7 +2,7 @@
  * 
  */
 (function($){
-	//轮播类定义  具体实现
+	//轮播类定义 原始可能是bootstrap的carousel
 	function Carousel(elem,options){
 		this.init(elem,options);
 		
@@ -206,8 +206,7 @@
 			 	}
 								 
 		 });
-				// carousels.removeClass("hidden");
-		//	});
+
 		
 	}
 	//整体轮播小组件都自适应变动图片区域大小
